@@ -41,6 +41,4 @@ app.get('/apps', (req, res) => {
   res.status(200).json(results);
 });
 
-app.listen(3000, () => {
-  console.log('server running on port 3000');
-});
+module.exports = app;
